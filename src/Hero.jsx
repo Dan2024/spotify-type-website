@@ -22,7 +22,7 @@ export default function Hero() {
 
     // fetch("https://randomuser.me/api/")
     fetch(
-      `https://spotify23.p.rapidapi.com/search/?q=${searchedArtist}&type=multi&offset=0&limit=5&numberOfTopResults=5`,
+// link to api
       options
     )
       .then((response) => response.json())
