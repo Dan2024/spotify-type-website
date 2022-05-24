@@ -105,8 +105,13 @@ export default function Hero() {
                     className="w-56 rounded-lg mt-5"
                     src={album.data.coverArt.sources[0].url}
                   />
-                  <p key={idx} className="text-xl font-semibold mt-5 mb-10">
+                  <p key={idx} className="text-xl font-semibold mt-5 mb-5">
                     {album.data.name}
+                  </p>
+                  <p className="text-stone-400 pr-4 mb-5 italic">
+                    {album.data.date.year +
+                      "•" +
+                      album.data.artists.items[0].profile.name}
                   </p>
                 </div>
               ))}
