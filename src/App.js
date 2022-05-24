@@ -5,8 +5,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App bg-black h-screen overflow-hidden">
-      <main className="two-col-grid__expand-two">
+    <div className="App bg-black h-screen overflow-scroll">
+      <main className="ff-p two-col-grid__expand-two">
         <Sidebar />
         <Hero />
       </main>

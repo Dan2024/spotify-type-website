@@ -7,3 +7,13 @@
   grid-template-columns: auto 1fr;
   gap: 1rem;
 }
+
+.three-col-grid__expand-two {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+}
+
+.ff-p {
+  font-family: poppins;
+}
